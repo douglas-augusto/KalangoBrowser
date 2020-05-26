@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="SobreActivity">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="816dp"
+        android:layout_x="109dp"
+        android:layout_y="-158dp"
+        android:src="@drawable/web_hi_res_512" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="55dp"
+        android:layout_y="371dp"
+        android:text="Kalango Browser"
+        android:textColor="#000"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="133dp"
+        android:layout_y="432dp"
+        android:text="versão 0.1 alpha"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="69dp"
+        android:layout_y="466dp"
+        android:text="Desenvolvido por: Douglas Augusto"
+        android:textSize="18dp" />
+
+
+</AbsoluteLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    app:contentInsetEnd="0dp"
+    app:contentInsetStart="0dp"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:paddingTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:hint="Pesquisar ou inserir endereço web"
+                android:textColorHint="#CCC"
+                android:background="@drawable/back_arrendondado"
+                android:id="@+id/url"
+                app:contentInsetStart="10dp"
+                android:textColor="#000"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="5dp"
+                android:textSize="14dp"
+                android:maxLines="1"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:ems="10" />
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp"
+                android:layout_height="40dp"
+                android:id="@+id/progressBar"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>
