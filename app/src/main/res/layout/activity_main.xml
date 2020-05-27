@@ -36,6 +36,8 @@
                 android:background="@color/colorPrimary"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:src="@drawable/back" />
 
             <ImageButton
@@ -43,6 +45,8 @@
                 android:background="@color/colorPrimary"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:src="@drawable/front" />
 
             <ImageButton
@@ -50,7 +54,36 @@
                 android:background="@color/colorPrimary"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:src="@drawable/ref" />
+
+            <ImageButton
+                android:id="@+id/favoritar"
+                android:background="@color/colorPrimary"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/favorito" />
+
+            <ImageButton
+                android:id="@+id/nova_pagina"
+                android:background="@color/colorPrimary"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/add" />
+
+            <ImageButton
+                android:id="@+id/recentes"
+                android:background="@color/colorPrimary"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/quadrado" />
 
         </LinearLayout>
     </LinearLayout>
